@@ -177,26 +177,26 @@ GUI INTERFACE
 ═════════════
 
 ┌─ CURA PATHS ─────────────────────────────────────────────────────────────────┐
-│                                                                               │
+│                                                                              │
 │  Install Path:   Where Cura is installed (contains Cura.exe)                 │
-│                  Example: C:\\Program Files\\UltiMaker Cura 5.11.0            │
-│                                                                               │
+│                  Example: C:\\Program Files\\UltiMaker Cura 5.11.0           │
+│                                                                              │
 │  AppData Path:   Your personal Cura settings folder                          │
-│                  Example: C:\\Users\\YourName\\AppData\\Roaming\\cura\\5.11     │
-│                                                                               │
+│                  Example: C:\\Users\\YourName\\AppData\\Roaming\\cura\\5.11  │
+│                                                                              │
 │  [Validate & Discover] - Checks paths are valid, finds your printers         │
-│                                                                               │
-└───────────────────────────────────────────────────────────────────────────────┘
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
 
 ┌─ MACHINE ────────────────────────────────────────────────────────────────────┐
-│                                                                               │
+│                                                                              │
 │  Select the printer profile you want to extract. These are the printers      │
 │  you've configured in Cura (not necessarily physical printers).              │
-│                                                                               │
-└───────────────────────────────────────────────────────────────────────────────┘
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
 
 ┌─ EXTRACTION OPTIONS ─────────────────────────────────────────────────────────┐
-│                                                                               │
+│                                                                              │
 │  ☑ Preferences      - Global Cura preferences (visible settings, etc.)       │
 │  ☑ Machine Settings - All printer settings with inheritance tracking         │
 │  ☑ G-code           - Your Start and End G-code scripts                      │
@@ -207,23 +207,23 @@ GUI INTERFACE
 └───────────────────────────────────────────────────────────────────────────────┘
 
 ┌─ ADVANCED FALLBACKS ─────────────────────────────────────────────────────────┐
-│                                                                               │
+│                                                                              │
 │  Only use these if auto-detection fails or detects wrong values.             │
-│                                                                               │
+│                                                                              │
 │  Manufacturer:    Override detected printer brand (creality, prusa, etc.)    │
 │  Quality Subdir:  Override quality profile folder path                       │
-│                                                                               │
+│                                                                              │
 │  Values are auto-populated when you click "Validate & Discover".             │
 │  Edit them only if the detected values are wrong.                            │
-│                                                                               │
-└───────────────────────────────────────────────────────────────────────────────┘
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
 
 ┌─ BUTTONS ────────────────────────────────────────────────────────────────────┐
-│                                                                               │
+│                                                                              │
 │  [Dry Run (Preview)] - Shows what would be extracted without saving          │
 │  [Extract All!]      - Extracts and saves to a JSON file                     │
-│                                                                               │
-└───────────────────────────────────────────────────────────────────────────────┘
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
 
 
 COMMAND LINE INTERFACE (CLI)
